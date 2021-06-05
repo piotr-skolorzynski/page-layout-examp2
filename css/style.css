@@ -112,13 +112,31 @@ body {
 /* section-secret-recipe */
 
 .section-secret-recipe {
+    padding: 4rem 2rem;
     background: rgb(251, 252, 223);
     background: linear-gradient(129deg, rgba(251, 252, 223, 1) 0%, rgba(233, 223, 245, 1) 100%);
 }
 
+.content-info {
+    text-align: center;
+}
+
+.content-title {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.content-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 /* section-dessert-recipe */
 
 .section-dessert-recipe {
+    padding: 4rem 2rem;
     background: rgb(251, 252, 223);
     background: linear-gradient(129deg, rgba(251, 252, 223, 1) 0%, rgba(233, 223, 245, 1) 100%);
 }
