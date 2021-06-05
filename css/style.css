@@ -3,9 +3,16 @@ html {
 }
 
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 300vh;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
 }
 
 /* section dessert */
@@ -27,13 +34,6 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.45);
     z-index: -1;
-}
-
-.content-wrapper {
-    margin: 0 auto;
-    max-width: 1000px;
-    display: flex;
-    align-items: center;
 }
 
 .card-dessert {
@@ -93,7 +93,7 @@ body {
     box-shadow: 2px 2px 2px 2px rgba(247, 155, 103, 0.97);
 }
 
-.img-wrapper {
+.dessert-img-wrapper {
     position: absolute;
     left: 44%;
     width: 420px;
@@ -101,7 +101,25 @@ body {
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, .4);
 }
 
-.img-wrapper img {
+.dessert-img-wrapper img {
     width: 100%;
     height: 100%;
+}
+
+/* card-recipe */
+
+
+
+/* section-secret-recipe */
+
+.section-secret-recipe {
+    background: rgb(251, 252, 223);
+    background: linear-gradient(129deg, rgba(251, 252, 223, 1) 0%, rgba(233, 223, 245, 1) 100%);
+}
+
+/* section-dessert-recipe */
+
+.section-dessert-recipe {
+    background: rgb(251, 252, 223);
+    background: linear-gradient(129deg, rgba(251, 252, 223, 1) 0%, rgba(233, 223, 245, 1) 100%);
 }
