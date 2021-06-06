@@ -106,7 +106,35 @@ body {
 }
 
 /* card-recipe */
+.card-recipe {
+    padding: 10rem 12rem 10rem 11rem;
+    width: 330px;
+    height: 330px;
+    color: #fff;
+    background-color: #ff873a;
+}
 
+.card-featured-recipe {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card-recipe-title {
+    font-size: 3.2rem;
+    font-weight: lighter;
+}
+
+.card-recipe-title span {
+    font-family: 'Courgette',cursive;
+}
+
+.recipe-img-wrapper img {
+    width: 500px;
+    height: 350px;
+    z-index: 10;
+}
 
 
 /* section-secret-recipe */
