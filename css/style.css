@@ -15,6 +15,7 @@ body {
 }
 
 /* section dessert */
+
 .section-dessert {
     position: relative;
     padding: 7rem 1rem;
@@ -106,12 +107,23 @@ body {
 }
 
 /* card-recipe */
+
 .card-recipe {
-    padding: 10rem 12rem 10rem 11rem;
     width: 330px;
     height: 330px;
     color: #fff;
     background-color: #ff873a;
+    z-index: 1;
+}
+
+.card-recipe-right {
+    margin-left: auto;
+    padding: 7rem 12rem 7rem 11rem;
+}
+
+.card-recipe-left {
+    padding: 7rem 11rem 7rem 12rem;
+    margin-right: auto;
 }
 
 .card-featured-recipe {
@@ -130,12 +142,33 @@ body {
     font-family: 'Courgette',cursive;
 }
 
-.recipe-img-wrapper img {
+.card-recipe-info {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+
+.recipe-img-wrapper {
+    position: relative;
     width: 500px;
     height: 350px;
+}
+
+.recipe-img-wrapper img {
+    position: absolute;
+    top: 10%;
+    width: 500px;
+    height: 300px;
     z-index: 10;
 }
 
+.left-img {
+    left: 10%;
+}
+
+.right-img {
+    right: 10%;
+}
 
 /* section-secret-recipe */
 
@@ -158,8 +191,6 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-
-
 
 /* section-dessert-recipe */
 
